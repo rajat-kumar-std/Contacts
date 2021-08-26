@@ -18,6 +18,11 @@ const ContactList = (props) => {
         <div>
             <Heading><Link to="/add"><button> + </button></Link></Heading>
             {renderContactList}
+            
+            <p><b>Help:</b><br/> Click '+' to add new contact. <br/>
+            Click edit to update the contact. <br/>
+            Click delete to delete the contact. <br/>
+            Click on the name to display info about contact.</p>
         </div>
     );
 };
