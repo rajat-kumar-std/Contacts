@@ -38,8 +38,8 @@ class EditContact extends Component {
                     />
                     <br />
                     <input
-                        type="text"
-                        // type="email"
+                        // type="text"
+                        type="email"
                         placeholder="Email"
                         value={this.state.email}
                         onChange={(e) => {
